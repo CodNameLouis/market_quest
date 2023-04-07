@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "343720228247",
+    "project_id": "market-quest",
+    "storage_bucket": "market-quest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343720228247:android:58846ccdbe42f3b64f40d2",
+        "android_client_info": {
+          "package_name": "com.louis.marketquest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343720228247-sjigdohegti7p8g271eacmcek8gjq3f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.louis.marketquest",
+            "certificate_hash": "c26fc64b3e02734460d4b74c2310c4d69bd2961d"
+          }
+        },
+        {
+          "client_id": "343720228247-71mk1ulrbgmbva63pipdtsqp8l3k49n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKANJwfNbc8V31DV7GqqVYEHG1tTVdZss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343720228247-71mk1ulrbgmbva63pipdtsqp8l3k49n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

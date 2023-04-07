@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">343720228247-71mk1ulrbgmbva63pipdtsqp8l3k49n5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">343720228247</string>
+    <string name="google_api_key" translatable="false">AIzaSyBKANJwfNbc8V31DV7GqqVYEHG1tTVdZss</string>
+    <string name="google_app_id" translatable="false">1:343720228247:android:58846ccdbe42f3b64f40d2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBKANJwfNbc8V31DV7GqqVYEHG1tTVdZss</string>
+    <string name="google_storage_bucket" translatable="false">market-quest.appspot.com</string>
+    <string name="project_id" translatable="false">market-quest</string>
+</resources>

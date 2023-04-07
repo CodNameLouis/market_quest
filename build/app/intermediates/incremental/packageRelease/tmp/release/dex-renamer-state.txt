@@ -1,0 +1,4 @@
+#Fri Apr 07 17:57:23 AMT 2023
+base.0=F\:\\develop\\market_quest\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
