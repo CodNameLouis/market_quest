@@ -3,9 +3,8 @@ import 'package:get/get.dart';
 
 class ProductPageController extends GetxController {
   final firestoreInstance = FirebaseFirestore.instance;
-  // var productList = <Map<String, dynamic>>[].obs;
-  RxList<Map<String, dynamic>> productList = RxList<Map<String, dynamic>>([]);
 
+  RxList<Map<String, dynamic>> productList = RxList<Map<String, dynamic>>([]);
   RxList<Map<String, dynamic>> searchProductList =
       RxList<Map<String, dynamic>>([]);
 
@@ -30,12 +29,27 @@ class ProductPageController extends GetxController {
     }
   }
 
-  Future<void> loadProductList() async {
+  void deleteProduct(String id) async {
     try {
-      QuerySnapshot<Map<String, dynamic>> products =
-          await FirebaseFirestore.instance.collection('products').get();
-      productList.assignAll(products.docs.map((doc) => doc.data()).toList());
+      await firestoreInstance.collection('products').doc(id).delete();
+      productList.removeWhere((product) => product['id'] == id);
       update();
+      Get.snackbar('Sucesso', 'Produto excluído com sucesso!');
+    } catch (e) {
+      Get.snackbar('Erro', 'Erro ao excluir produto.');
+    }
+  }
+
+  void loadProductList() {
+    try {
+      firestoreInstance.collection('products').snapshots().listen((snapshot) {
+        productList.assignAll(snapshot.docs.map((doc) {
+          Map<String, dynamic> data = doc.data();
+          data['id'] = doc.id;
+          return data;
+        }).toList());
+        update();
+      });
     } catch (e) {
       Get.snackbar('Erro', 'Erro ao carregar lista de produtos.');
     }
@@ -59,10 +73,10 @@ class ProductPageController extends GetxController {
     update();
   }
 
-void refreshProductList() {
-  searchProductList.clear();
-  update();
-}
+  void refreshProductList() {
+    searchProductList.clear();
+    update();
+  }
 
   double getTotal() {
     var total = 0.0;

@@ -7,7 +7,7 @@ import 'constants/app_colors.dart';
 import 'routes/app_pages.dart';
 
 class AppWidget extends StatelessWidget {
-  const AppWidget({super.key});
+  const AppWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

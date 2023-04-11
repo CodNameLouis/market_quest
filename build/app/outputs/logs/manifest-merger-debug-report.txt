@@ -54,6 +54,7 @@ MERGED from [:cloud_firestore] F:\develop\market_quest\build\cloud_firestore\int
 MERGED from [:firebase_core] F:\develop\market_quest\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:path_provider_android] F:\develop\market_quest\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:google_sign_in_android] F:\develop\market_quest\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_native_splash] F:\develop\market_quest\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\codna\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] C:\Users\codna\.gradle\caches\transforms-3\a3188227eb7937895c1b82bd18536df4\transformed\jetified-recaptcha-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\codna\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
@@ -136,6 +137,8 @@ MERGED from [:path_provider_android] F:\develop\market_quest\build\path_provider
 MERGED from [:path_provider_android] F:\develop\market_quest\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] F:\develop\market_quest\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:google_sign_in_android] F:\develop\market_quest\build\google_sign_in_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] F:\develop\market_quest\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] F:\develop\market_quest\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\codna\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\codna\.gradle\caches\transforms-3\4df50efd5003cc01ac50384eab73866d\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] C:\Users\codna\.gradle\caches\transforms-3\a3188227eb7937895c1b82bd18536df4\transformed\jetified-recaptcha-18.0.1\AndroidManifest.xml:5:5-44

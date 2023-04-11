@@ -4,6 +4,8 @@ class AppColors {
   static const Color primaryColor = Color(0xFFfaebd7);
   static const Color secondaryColor = Color(0xFFfdf5e6);
   static const Color titleColor = Color(0xff4d4843);
+  static const Color cancelColor = Color(0xfff89b7e);
+  static const Color aceptColor = Color(0xffa7c5bd);
 }
 
 class CustomMaterialColor {

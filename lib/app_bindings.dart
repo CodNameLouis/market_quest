@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
-import 'package:market_quest/auth/auth_controller.dart';
+
+import 'auth/auth_controller.dart';
 
 class AppBindings implements Bindings {
   @override

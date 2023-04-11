@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:market_quest/product_page/product_page_controller.dart';
 
 import '../constants/app_colors.dart';
+import '../product_page/product_page_controller.dart';
 
 class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   const CustomAppBar({super.key});
@@ -25,6 +25,7 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
         title: const Text(
           "Market Quest",
           style: TextStyle(
+            fontStyle: FontStyle.italic,
             fontWeight: FontWeight.bold,
             color: AppColors.titleColor,
           ),
@@ -51,7 +52,7 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
                 }
               },
               itemBuilder: (BuildContext context) => [
-                 const PopupMenuItem(
+                const PopupMenuItem(
                   enabled: false,
                   child: Text(
                     'Ordenar por',

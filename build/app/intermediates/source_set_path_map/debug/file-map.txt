@@ -19,5 +19,6 @@ com.example.market_quest.app-merged_res-17 F:\develop\market_quest\build\app\int
 com.example.market_quest.app-packaged_res-18 F:\develop\market_quest\build\cloud_firestore\intermediates\packaged_res\debug
 com.example.market_quest.app-packaged_res-19 F:\develop\market_quest\build\firebase_auth\intermediates\packaged_res\debug
 com.example.market_quest.app-packaged_res-20 F:\develop\market_quest\build\firebase_core\intermediates\packaged_res\debug
-com.example.market_quest.app-packaged_res-21 F:\develop\market_quest\build\google_sign_in_android\intermediates\packaged_res\debug
-com.example.market_quest.app-packaged_res-22 F:\develop\market_quest\build\path_provider_android\intermediates\packaged_res\debug
+com.example.market_quest.app-packaged_res-21 F:\develop\market_quest\build\flutter_native_splash\intermediates\packaged_res\debug
+com.example.market_quest.app-packaged_res-22 F:\develop\market_quest\build\google_sign_in_android\intermediates\packaged_res\debug
+com.example.market_quest.app-packaged_res-23 F:\develop\market_quest\build\path_provider_android\intermediates\packaged_res\debug
